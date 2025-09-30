@@ -1,4 +1,3 @@
-```markdown
 # 🧪 Projeto de Estudo em Testes de Software Manual  
 
 Este repositório foi criado para reunir meus estudos sobre **Teste de Software Manual: do Planejamento à Execução**, servindo como um portfólio prático da minha evolução na área de QA. Aqui compartilho conceitos, aprendizados e exemplos aplicados durante a minha jornada.  
@@ -30,10 +29,16 @@ Esse espaço também funciona como consulta pessoal e como vitrine para recrutad
 
 ## 📌 Principais Aprendizados até o momento  
 
-### ✔️ Testar não garante ausência de defeitos  
-- Testes **não provam que o software está livre de erros**, apenas ajudam a identificar falhas.  
-- Mesmo que todos os testes passem, sempre podem existir cenários ainda não explorados.  
-- O objetivo dos testes é **reduzir riscos** e **aumentar a confiança** na qualidade do produto.  
+* 7 Princípios do Teste de Software
+    * Teste identifica a presença de defeitos
+    * Teste exaustivo é impossível
+    * Testes devem iniciar o quanto antes
+    * Agrupamento de defeitos
+    * Paradoxo do Pesticida
+    * Teste, dependendo do contexto
+    * Ilusão de ausência de defeitos
+
+
 
 ---
 
@@ -60,4 +65,3 @@ Estou seguindo o curso [**Teste de Software Manual: do Planejamento à Execuçã
 
 Este projeto é de caráter **educacional** e faz parte do meu portfólio.  
 Sinta-se à vontade para explorar e compartilhar.  
-```
