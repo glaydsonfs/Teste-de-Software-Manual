@@ -1,0 +1,27 @@
+@import url(./sidebars.css);
+
+p b {
+  color: #414141;
+}
+.pagina-inicial-link {
+    text-decoration: none;
+    color: rgb(0 0 0 / 87%);
+    font-weight: 500;
+    font-size: 16px;
+    background: #efefefba;
+    padding: 5px 20px;
+    border-radius: 5px;
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.container-principal {
+  max-width: 1100px;
+}
+
+.h1-titulo {
+  margin-bottom: 30px;
+}
+.h5-titulo {
+  color: #666;
+}
