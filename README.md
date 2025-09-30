@@ -50,8 +50,8 @@ Estou seguindo o curso [**Teste de Software Manual: do Planejamento à Execuçã
 
 ## 🔗 Onde acompanhar  
 
-- 🌐 [Meu Site de Estudos](#) _(em desenvolvimento)_  
-- 💻 [Meu GitHub](https://github.com/)  
+- 🌐 [Meu Site de Estudos](https://glaydsonfs.github.io/Teste-de-Software-Manual/) _(em desenvolvimento)_  
+- 💻 [Meu GitHub](https://github.com/glaydsonfs)  
 
 ---
 
