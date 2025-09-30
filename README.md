@@ -1,4 +1,3 @@
-```markdown
 # 🧪 Projeto de Estudo em Testes de Software Manual  
 
 Este repositório foi criado para reunir meus estudos sobre **Teste de Software Manual: do Planejamento à Execução**, servindo como um portfólio prático da minha evolução na área de QA. Aqui compartilho conceitos, aprendizados e exemplos aplicados durante a minha jornada.  
@@ -60,4 +59,3 @@ Estou seguindo o curso [**Teste de Software Manual: do Planejamento à Execuçã
 
 Este projeto é de caráter **educacional** e faz parte do meu portfólio.  
 Sinta-se à vontade para explorar e compartilhar.  
-```
