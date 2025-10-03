@@ -1,15 +1,25 @@
 @import url(./sidebars.css);
 @import url('href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css');
 
-p b {
+b {
   color: #414141;
 }
+
+p  {
+  line-height: 1.6rem;
+}
+
+hr {
+  border: 1px #ababab dashed ;
+}
+
 .pagina-inicial-link {
     text-decoration: none;
-    color: rgb(0 0 0 / 87%);
+    /* color: rgb(0 0 0 / 87%); */
+    color: #FFF;
     font-weight: 500;
     font-size: 16px;
-    background: #efefefba;
+    background: #cb0909;
     padding: 5px 20px;
     border-radius: 5px;
     width: 100%;
@@ -25,6 +35,25 @@ p b {
 }
 .h5-titulo {
   color: #666;
+}
+
+/* subtitulo */
+.subtitulo::before {
+  content: "⋙";
+  display: absolute;
+  color: #c90000;
+  line-height: 2.3rem;
+}
+
+/* blockquote */
+blockquote {
+  background-color: #fdf9cb;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #f9ed91;
+    color: #c1a305;
+    /* font-weight: 500; */
+    font-size: 15px;
 }
 
 /* footer */
