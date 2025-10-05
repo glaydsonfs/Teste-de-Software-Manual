@@ -21,28 +21,34 @@
     <div class="container-principal container-md">
       <div class="row">
         <div class="col-8">
-          <h5 class="h5-titulo">⋙ Princípios do Teste de Software</h5>
-          <h1 class="h1-titulo">Apresentação</h1>
-          <p>🚀 7 Princípios Essenciais de Teste de Software que Todo QA Deve Saber</p>
+          <h5 class="h5-titulo">⋙ Metodologias Ágeis</h5>
+          <h1 class="h1-titulo">Kanban</h1>
+          <p>Hoje mergulhei em um dos conceitos mais comentados dentro das equipes ágeis: o Kanban.<br>
+             Já tinha ouvido falar bastante, mas só agora entendi como ele pode impactar (e muito!) a rotina de um QA.</p>
 
-          <p>Nos meus estudos sobre teste de software, aprendi que existem 7 princípios importantes que todo testador deve conhecer:</p>
+          <p>O Kanban é basicamente um <b>sistema visual para gerenciar o fluxo de trabalho.</b><br>
+             A proposta é simples: <b>tornar tudo visível</b>, o que está em andamento, o que está parado e o que já foi concluído ajudando o time a identificar gargalos e entregar valor de forma contínua.</p>
 
+          <h4 class="subtitulo">O que mais aprendi sobre o Kanban</h4>
           <ul>
-            <li>Testar é planejado – Não é só clicar no programa; é pensar antes o que vamos testar.</li>
-            <li>Testes mostram erros – Testar não prova que está perfeito, mas ajuda a achar problemas.</li>
-            <li>Não dá para testar tudo – O software é grande demais; precisamos escolher os testes mais importantes.</li>
-            <li>Começar cedo ajuda – Quanto antes testamos, mais fácil e barato é consertar erros.</li>
-            <li>Alguns lugares têm mais erros – Alguns pontos do programa costumam dar mais problemas, então vale prestar atenção neles.</li>
-            <li>Não repetir sempre os mesmos testes – Se só testamos do mesmo jeito, não vamos achar novos erros.</li>
-            <li>Depende da situação – Cada software é diferente, então os testes também precisam ser diferentes.</li>
-            <li>Mesmo sem erros encontrados, podem existir problemas – Só porque não achamos nada, não significa que está 100% certo.</li>
+            <li>Ele <b>não trabalha com sprints fixos*</b>, mas com fluxo contínuo.</li>
+              <ul><li class="sublinha" style="font-size: 13px; background-color: #EEE; padding: 5px; border-radius: 10px;">*Sprints Fixo são períodos de tempo determinados (geralmente 1 a 4 semanas) em que uma equipe trabalha em um conjunto específico de tarefas. É o modelo usado no Scrum, onde cada sprint começa com um planejamento e termina com uma entrega.</li></ul>
+            <li>As tarefas são representadas por cartões em colunas (A Fazer, Em Progresso, Concluído).</li>
+            <li>Existe o famoso <b>limite de WIP (Work In Progress)**</b>, que define quantas tarefas podem estar em andamento ao mesmo tempo.</li>
+              <ul><li class="sublinha" style="font-size: 13px; background-color: #EEE; padding: 5px; border-radius: 10px;">**WIP significa “trabalho em progresso”. No Kanban, ele representa o número máximo de tarefas que podem estar sendo feitas ao mesmo tempo. O objetivo é evitar sobrecarga e garantir que as atividades sejam finalizadas antes de começar novas.</li></ul>
+            <li>O foco não é em “quantas tarefas fiz”, mas em <b>como o fluxo</b> está funcionando.</li>
+            <li>Ele <b>não exige uma estimativa prévia de esforço</b>, o tempo e o aprendizado vêm da observação do processo real.</li>
           </ul>
 
-          <p><quote>
-            💡 Resumindo: testar é descobrir problemas antes que o usuário veja, escolher bem o que testar e adaptar o jeito de testar conforme cada software.
-          </quote></p>
-            Esses princípios são a base para qualquer QA manual ou automatizado e ajudam a conduzir testes de forma inteligente, eficiente e estratégica. 
-          
+          <h4 class="subtitulo">Na prática</h4>
+          <p>Percebi que implementar o Kanban envolve mapear o processo, criar o quadro e começar a medir o fluxo. <br>
+             O segredo está em observar o tempo que cada tarefa leva do início ao fim (lead time) e ajustar o sistema constantemente.</p>
+
+          <p>Para QA, isso é muito útil: consigo enxergar onde os testes ficam travados, entender quanto tempo gasto em cada fase e ajudar o time a entregar com mais qualidade e menos espera.</p>
+
+          <p>O Kanban <b>não é só um quadro com post-its</b>.<br>
+             É uma forma de pensar sobre fluxo, foco e entrega de valor.</p>
+          <p>Aprendi que limitar o trabalho em progresso não é sobre fazer menos, mas sobre finalizar mais e com qualidade.</p>
         </div>
 
           <div class="col-4" >
@@ -51,48 +57,48 @@
               <!--7 Princípios do Teste de Software-->
               <li class="mb-1">
                 <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                        data-bs-toggle="collapse" data-bs-target="#principios-collapse" aria-expanded="true">
+                        data-bs-toggle="collapse" data-bs-target="#principios-collapse" aria-expanded="false">
                   1. 7 Princípios do Teste de Software
                 </button>
-                <div class="collapse show" id="principios-collapse">
+                <div class="collapse" id="principios-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li>
-                      <a href="./apresentacao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded link-menu-active">
+                      <a href="../1-sete-principios-do-teste-de-software/apresentacao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                         1.1 - Apresentação
                       </a>
                     </li>
                     <li>
-                      <a href="./teste-identifica-a-presenca-de-defeitos.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                      <a href="../1-sete-principios-do-teste-de-software/teste-identifica-a-presenca-de-defeitos.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                         1.2 - Testar identifa a presença de defeitos
                       </a>
                     </li>
                     <li>
-                      <a href="./teste-exaustivo-impossivel.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                      <a href="../1-sete-principios-do-teste-de-software/teste-exaustivo-impossivel.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                         1.3 - Teste exaustivo é impossível
                         </a>
                     </li>
                     <li>
-                      <a href="./testes-devem-iniciar-o-quanto-antes.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                      <a href="../1-sete-principios-do-teste-de-software/testes-devem-iniciar-o-quanto-antes.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                         1.4 - Testes devem iniciar o quanto antes
                       </a>
                     </li>
                     <li>
-                      <a href="./agrupamento-de-defeitos.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                      <a href="../1-sete-principios-do-teste-de-software/agrupamento-de-defeitos.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                         1.5 - Agrupamento de defeitos
                       </a>
                     </li>
                     <li>
-                      <a href="./paradoxo-do-pesticida.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                      <a href="../1-sete-principios-do-teste-de-software/paradoxo-do-pesticida.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                         1.6 - Paradoxo do pesticida
                       </a>
                     </li>
                     <li>
-                      <a href="./teste-dependendo-do-contexto.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                      <a href="../1-sete-principios-do-teste-de-software/teste-dependendo-do-contexto.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                         1.7 - Teste, dependendo do contexto
                       </a>
                     </li>
                     <li>
-                      <a href="./ilusao-de-ausencia-de-defeitos.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                      <a href="../1-sete-principios-do-teste-de-software/ilusao-de-ausencia-de-defeitos.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
                         1.8 - Ilusão de ausência de defeitos
                       </a>
                     </li>
@@ -105,25 +111,25 @@
               <li class="mb-1">
                 <button
                   class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
-                  data-bs-toggle="collapse" data-bs-target="#metodologias-collapse" aria-expanded="false">
+                  data-bs-toggle="collapse" data-bs-target="#metodologias-collapse" aria-expanded="true">
                   2. Metodologias Ágeis
                 </button>
-                <div class="collapse" id="metodologias-collapse">
+                <div class="collapse show" id="metodologias-collapse">
                   <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                     <li>
-                      <a href="../2-metodologias-ageis/apresentacao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.1 - Apresentação</a>
+                      <a href="./apresentacao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.1 - Apresentação</a>
                     </li>
                     <li>
-                      <a href="../2-metodologias-ageis/lean.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.2 - Lean</a>
+                      <a href="./lean.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.2 - Lean</a>
                     </li>
                     <li>
-                      <a href="../2-metodologias-ageis/kanban.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.3 - Kanban</a>
+                      <a href="./kanban.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded link-menu-active">2.3 - Kanban</a>
                     </li>
                     <li>
-                      <a href="../2-metodologias-ageis/extreming-programing.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.4 - Extreming Programing</a>
+                      <a href="./extreming-programing.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.4 - Extreming Programing</a>
                     </li>
                     <li>
-                      <a href="../2-metodologias-ageis/scrum.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.5 - Scrum</a>
+                      <a href="./scrum.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.5 - Scrum</a>
                     </li>
                   </ul>
                 </div>
