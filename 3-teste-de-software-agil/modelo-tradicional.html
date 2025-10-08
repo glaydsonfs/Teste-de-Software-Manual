@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Teste de Software Manual</title>
+    <link rel="icon" href="../utilities/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="../utilities/style.css">
+  </head>
+  <body>
+  
+    <div class="container-md text-center py-5"> 
+      <img src="../utilities/bug.png" alt="Logo BUG" class="d-inline-block align-text-top">
+      <h1 class="display-12 fw-bold h1-titulo">
+        Teste de Software Manual: <br />
+        Do Planejamento à Execução
+      </h1>
+    </div>
+
+    <div class="container-principal container-md">
+      <div class="row">
+        <div class="col-8">
+          <h5 class="h5-titulo">⋙ Metodologias Ágeis</h5>
+          <h1 class="h1-titulo">Modelo Tradicional</h1>
+          <p><b>Teste de software</b> era (e ainda é) aplicado dentro das metodologias tradicionais de desenvolvimento. É interessante entender esse contexto antes de mergulhar completamente no mundo ágil, pois muitos conceitos modernos nasceram a partir das limitações desses modelos.</p>
+
+          <p>As metodologias tradicionais, como o Modelo Cascata e o Modelo Espiral, seguem um processo linear e bem definido: primeiro se planeja tudo, depois se desenvolve e, por último, se testa.</p>
+          <!-- tabela -->
+          <table class="table table-borderless table-sm table-striped">
+            <thead>
+              <tr>
+                <th scope="col">PRÓS</th>
+                <th scope="col">CONTRA</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Estrutura organizada e fácil de entender</td>
+                <td>Pouca flexibilidade para mudanças</td>
+              </tr>
+              <tr>
+                <td>Cada fase tem entregas bem definidas.</td>
+                <td>Feedback vem tarde (só no final do processo)</td>
+              </tr>
+              <tr>
+                <td>Ideal para projetos com requisitos estáveis e bem conhecidos.</td>
+                <td>Retrabalho pode ser grande caso surjam erros ou mudanças</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- tabela -->
+
+          <p>Esses modelos seguem três grandes etapas:</p>
+          <ul>
+            <li><b>Especificação do projeto</b> – entender e documentar o que precisa ser feito.</li>
+            <li><b>Implementação</b> – desenvolver o software conforme planejado.</li>
+            <li><b>Teste</b> – validar se o sistema funciona como esperado (geralmente no fim).</li>
+          </ul>
+
+          <h4 class="subtitulo">Modelo Cascata</h4>
+          <p>O modelo cascata foi um dos primeiros modelos de desenvolvimento de software. Ele é chamado assim porque cada etapa “desce” para a próxima como uma cascata e só depois de concluída uma fase é que a próxima pode começar.</p>
+          <center><img src="../utilities/cascata.png" alt="Modelo Cascata"></center>
+
+          <h5>Etapas do Modelo Cascata</h5>
+          <!-- table Etapas do Modelo Cascata -->
+          <table class="table table-borderless table-sm table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Modelo</th>
+                <th scope="col">Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Especificação</th>
+                <td>Aqui o time faz um brainstorm com o cliente e levanta todos os requisitos.
+                  É o momento de entender o problema e planejar o que será construído.</td>
+              </tr>
+              <tr>
+                <th scope="row">Projeto do Software</th>
+                <td>Fase de projeção, desenhar como o sistema vai funcionar, quais tecnologias serão usadas, arquitetura e design das funcionalidades.</td>
+              </tr>
+              <tr>
+                <th scope="row">Implementação (Codificação)</th>
+                <td>Os desenvolvedores começam a programar com base no que foi projetado.</td>
+              </tr>
+              <tr>
+                <th scope="row">Teste Unitário / Validação</th>
+                <td>O próprio desenvolvedor testa o código que criou, verificando se cada parte funciona individualmente.</td>
+              </tr>
+              <tr>
+                <th scope="row">Integração</th>
+                <td>É a hora de conectar os módulos e serviços, fazendo tudo funcionar junto.</td>
+              </tr>
+              <tr>
+                <th scope="row">Teste de Sistema</th>
+                <td>Testar o sistema completo, simulando o uso real para garantir que os requisitos foram atendidos.</td>
+              </tr>
+              <tr>
+                <th scope="row">Operação e Manutenção</th>
+                <td>Após o deploy, o sistema entra em operação e passa a receber manutenções e correções.</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- table Etapas do Modelo Cascata -->
+
+          <h5>Retrabalho</h5>
+          <p>O problema do modelo cascata é o reprocesso: se um erro é encontrado no final, é preciso voltar várias etapas. Isso gera repetição de tarefas, custos e atrasos.</p>
+          <h5>Projetos Incrementais</h5>
+          <p>Para tentar reduzir o retrabalho, surgiram modelos incrementais, onde o produto é entregue em partes menores e testadas com mais frequência.</p>
+          <h5>Liberação de Versões</h5>
+          <p>Esses incrementos deram origem à ideia de “entregar versões”, especialmente para clientes apressadinhos que querem ver resultados o quanto antes um passo que inspirou as práticas ágeis que usamos hoje.</p>
+
+          <h4 class="subtitulo">Modelo Espiral - “A evolução da cascata”</h4>
+          <p>O modelo espiral foi criado para melhorar o cascata, adicionando iteração e análise de riscos. <br>
+            Ele continua sendo planejado, mas agora o ciclo é repetido várias vezes até chegar ao produto final.</p>
+          <img src="../utilities/espiral.png" alt="Modelo Espiral" width="100%">
+          <!-- Table Modelo Espiral -->
+          <table class="table table-borderless table-sm table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Fase</th>
+                <th scope="col">Descrição</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Definição de Objetivos</th>
+                <td>Cada ciclo começa com a definição dos objetivos, requisitos e restrições.</td>
+              </tr>
+              <tr>
+                <th>Avaliação e Redução de Riscos</th>
+                <td>Aqui é onde o modelo espiral se destaca: a equipe identifica possíveis riscos (técnicos, financeiros ou de prazo) e trabalha para reduzi-los.</td>
+              </tr>
+              <tr>
+                <th>Implementação e Validação</th>
+                <td>Após analisar riscos, parte-se para criar protótipos, desenvolver funcionalidades e testá-las.</td>
+              </tr>
+              <tr>
+                <th>Planejamento e Especificação</th>
+                <td>No fim de cada ciclo, é feito um planejamento para o próximo, ajustando o que for necessário antes de continuar.</td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Table Modelo Espiral -->
+
+          <h4 class="subtitulo">Por que é melhor?</h4>
+          <p>
+            Permite melhorar e ajustar o projeto continuamente. <br>
+            Reduz riscos antes de avançar para próximas fases. <br>
+            Facilita feedbacks mais cedo com protótipos e testes parciais.
+          </p>
+          <h4 class="subtitulo">Contras</h4>
+          <p>
+            Mais complexo de gerenciar. <br>
+            Pode ser caro e demorado se os ciclos forem mal controlados.
+          </p>     
+        </div>
+
+          <div class="col-4" >
+            <a href="../index.html" class="pagina-inicial-link"><i class="fa-regular fa-house"></i> Página Inicial</a>
+            <ul class="list-unstyled ps-0">
+              <!--7 Princípios do Teste de Software-->
+              <li class="mb-1">
+                <button class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                        data-bs-toggle="collapse" data-bs-target="#principios-collapse" aria-expanded="false">
+                  1. 7 Princípios do Teste de Software
+                </button>
+                <div class="collapse" id="principios-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                      <a href="../1-sete-principios-do-teste-de-software/apresentacao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        1.1 - Apresentação
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../1-sete-principios-do-teste-de-software/teste-identifica-a-presenca-de-defeitos.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        1.2 - Testar identifa a presença de defeitos
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../1-sete-principios-do-teste-de-software/teste-exaustivo-impossivel.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        1.3 - Teste exaustivo é impossível
+                        </a>
+                    </li>
+                    <li>
+                      <a href="../1-sete-principios-do-teste-de-software/testes-devem-iniciar-o-quanto-antes.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        1.4 - Testes devem iniciar o quanto antes
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../1-sete-principios-do-teste-de-software/agrupamento-de-defeitos.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        1.5 - Agrupamento de defeitos
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../1-sete-principios-do-teste-de-software/paradoxo-do-pesticida.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        1.6 - Paradoxo do pesticida
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../1-sete-principios-do-teste-de-software/teste-dependendo-do-contexto.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        1.7 - Teste, dependendo do contexto
+                      </a>
+                    </li>
+                    <li>
+                      <a href="../1-sete-principios-do-teste-de-software/ilusao-de-ausencia-de-defeitos.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        1.8 - Ilusão de ausência de defeitos
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!--7 Princípios do Teste de Software-->
+
+              <!--Metodologias Ágeis-->
+              <li class="mb-1">
+                <button
+                  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                  data-bs-toggle="collapse" data-bs-target="#metodologias-collapse" aria-expanded="false">
+                  2. Metodologias Ágeis
+                </button>
+                <div class="collapse" id="metodologias-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                      <a href="../2-metodologias-ageis/apresentacao.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.1 - Apresentação</a>
+                    </li>
+                    <li>
+                      <a href="../2-metodologias-ageis/lean.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.2 - Lean</a>
+                    </li>
+                    <li>
+                      <a href="../2-metodologias-ageis/kanban.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.3 - Kanban</a>
+                    </li>
+                    <li>
+                      <a href="../2-metodologias-ageis/extreming-programing.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.4 - Extreming Programing</a>
+                    </li>
+                    <li>
+                      <a href="../2-metodologias-ageis/scrum.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded">2.5 - Scrum</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!--Metodologias Ágeis-->
+
+              <!--Teste de Software no Ágil-->
+              <li class="mb-1">
+                <button
+                  class="btn btn-toggle d-inline-flex align-items-center rounded border-0 collapsed"
+                  data-bs-toggle="collapse" data-bs-target="#teste-agil-collapse" aria-expanded="true">
+                  3. Teste de Software no Ágil
+                </button>
+                <div class="collapse show" id="teste-agil-collapse">
+                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                      <a href="./modelo-tradicional.html" class="link-body-emphasis d-inline-flex text-decoration-none rounded link-menu-active">
+                        3.1 - Modelo tradicional</a>
+                    </li>
+                    <li>
+                      <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        3.2 - Manifesto Ágil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        3.3 - Tradicional x Ágil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        3.4 - Testador Ágil, uma Nova Era</a>
+                    </li>
+                    <li>
+                      <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        3.5 - Estratégia de Teste Ágil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        3.6 - Processo de Teste no Ágil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        3.7 - O Testador Ágil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        3.8 - Automação no Ágil</a>
+                    </li>
+                    <li>
+                      <a href="#" class="link-body-emphasis d-inline-flex text-decoration-none rounded">
+                        3.9 - Integração Contínua</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!--Teste de Software no Ágil-->
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="container-principal footer-principal container-md text-center">
+      <p> Estou estudando Teste de Software Manual: do Planejamento à Execução, com foco em aprender os conceitos fundamentais da área de QA e como aplicá-los na prática. Para consolidar meu aprendizado e ao mesmo tempo construir um portfólio, criei um site onde registro de forma simples e organizada o que venho aprendendo.</p>
+      <p>Nesse espaço, compartilho tópicos como planejamento de testes, elaboração de casos de teste, execução, relatórios de bugs e boas práticas no dia a dia de um QA. A ideia é transformar meu estudo em um repositório vivo, que mostra minha evolução, serve de consulta para mim e também como vitrine para recrutadores e profissionais da área que desejem acompanhar minha trajetória.</p>
+      <p>Esse projeto também está disponível no meu GitHub, reforçando minha dedicação em aprender continuamente e aplicar o conhecimento de forma prática.</p>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
+</html>
